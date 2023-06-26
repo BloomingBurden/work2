@@ -74,9 +74,6 @@
   }
 }
 
-.footer__link {
-}
-
 .footer__address {
   flex: 0 0 278px;
   display: flex;
@@ -94,7 +91,4 @@
   @media (max-width: $tableW) {
     margin-bottom: 5px;
   }
-}
-
-.footer__tel {
 }
