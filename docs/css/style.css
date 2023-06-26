@@ -819,6 +819,11 @@ button {
   position: relative;
 }
 
+.lang__current img {
+  width: 40px;
+  height: 40px;
+}
+
 .lang__current::after {
   content: "";
   -webkit-transition: 0.7s ease;

@@ -34,6 +34,7 @@ const onClickBottle = () => {
 
         if (target.closest('[data-wine-src]')) {
             if (!target.dataset.wineSrc) return;
+
             
             if (target.closest('.bottles__color')) {
                 const btnsColor = target.closest('.bottles__color').querySelectorAll('.bottles__btn-color');
@@ -44,6 +45,9 @@ const onClickBottle = () => {
             if (target.closest('.bottles__wines')) {
                 const btnsColor = target.closest('.bottles__wines').querySelectorAll('.bottles__elem');
                 const text = target.closest('.bottles__elem').querySelector('.bottles__wine').textContent;
+                let isBlack = target.closest('.bottles__header').querySelector('.bottles__btn--black').classList.contains('bottles__btn-color--current');
+
+                if (isBlack) return;
 
                 target.closest('.bottles__wines').querySelector('.bottles__btn-wine').textContent = `${text} wine`;
                 btnsColor.forEach(item => item.classList.remove('bottles__elem--current'));
