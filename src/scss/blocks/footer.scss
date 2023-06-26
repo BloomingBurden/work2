@@ -1,0 +1,100 @@
+.footer {
+  padding: 80px 0;
+  min-height: 283px;
+  background-color: #323232;
+  color: #ffffff;
+  font-size: 20px;
+
+  @media (max-width: $desktopW) {
+    font-size: 16px;
+    min-height: 151px;
+    padding: 43px 0;
+  }
+
+  @media (max-width: $tableW) {
+    padding: 30px 0;
+  }
+
+  a {
+    transition: $trans;
+
+    &:hover,
+    &:focus {
+      color: $accent;
+    }
+  }
+}
+
+.footer__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @media (max-width: $tableW) {
+    display: block;
+    text-align: center;
+  }
+}
+
+.footer__logo {
+  flex: 0 0 234px;
+  margin-right: 30px;
+
+  @media (max-width: $desktopW) {
+    flex: 0 0 125px;
+    width: 125px;
+    height: 66px;
+  }
+
+  @media (max-width: $tableW) {
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+}
+
+.footer__nav {
+  flex: 0 1 440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (max-width: $tableW) {
+    display: block;
+    margin-bottom: 40px;
+  }
+}
+
+.footer__li {
+  @media (max-width: $tableW) {
+    margin-bottom: 15px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.footer__link {
+}
+
+.footer__address {
+  flex: 0 0 278px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  @media (max-width: $tableW) {
+    align-items: center;
+  }
+}
+
+.footer__mail {
+  margin-bottom: 10px;
+
+  @media (max-width: $tableW) {
+    margin-bottom: 5px;
+  }
+}
+
+.footer__tel {
+}

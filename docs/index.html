@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="images/favicon.png">
+  <meta property="og:image" content="images/dist/preview.jpg">
+  <title>Islas Canarias</title>
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body class=index-body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__container">
+        <button type="button" class="header__burger">open menu</button>
+        <div class="header__logo logo">
+          <img src="img/logo-red.svg" alt="logo" width="105">
+        </div>
+        <nav class="header__nav nav">
+          <button type="button" class="nav__close">close menu</button>
+          <ul class="nav__list">
+            <li class="nav__item nav__item--current">
+              <a href="index.html" class="nav__link">Inicio</a>
+            </li>
+            <li class="nav__item nav__item--hidden">
+              <a href="bottles.html" class="nav__link">Botellas</a>
+            </li>
+            <li class="nav__item nav__item--hidden">
+              <a href="barrel.html" class="nav__link">Barriles</a>
+            </li>
+            <li class="nav__item">
+              <a href="contacts.html" class="nav__link">Contactos</a>
+            </li>
+            <li class="nav__item">
+              <a href="about.html" class="nav__link">Quiénes somos</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="header__lang lang" tabindex="0">
+          <div class="lang__current"><img src="img/flag/es-flag.png" alt="Current flag"></div>
+          <ul class="lang__list">
+            <li class="lang__item lang__item--eu">
+              <a href="#" class="lang__link">English</a>
+            </li>
+            <li class="lang__item lang__item--es lang__item--current">
+              <a href="#" class="lang__link">Español</a>
+            </li>
+          </ul>
+        </div>
+
+        <a href="#" class="header__write">Escríbanos</a>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="preview">
+        <div class="preview__container">
+          <h1 class="preview__title">Maestría Artesanal: <br> Viticultura Exclusiva</h1>
+          <div class="preview__inner">
+            <p class="preview__text">Despierte sus sentidos y sumérjase en un mundo de encanto y meticulosa artesanía encapsulados en una sola botella. Descubra el encanto de los barriles que hace siglos deleitaban a los exigentes paladares de todos los rincones del mundo mientras saboreaban la riqueza de la vida.</p>
+            <div class="preview__swiper swiper">
+              <div class="swiper-button-prev">
+                <img src="img/svg/arrow-left.svg" alt="arrow" width="136">
+              </div>
+              <div class="swiper-button-next">
+                <img src="img/svg/arrow-right.svg" alt="arrow" width="136">
+              </div>
+              <div class="preview__list swiper-wrapper">
+                <div class="preview__slide swiper-slide">
+                  <a href="bottles.html" class="preview__body">
+                    <div class="preview__img">
+                      <picture>
+                        <source type="image/webp" srcset="img/bg-preview.webp">
+                        <img src="img/bg-preview.png" alt="Botellas" width="340">
+                      </picture>
+                    </div>
+                    <h3 class="preview__link link-circle">Botellas</h3>
+                  </a>
+                </div>
+                <div class="preview__slide swiper-slide">
+                  <a href="barrel.html" class="preview__body">
+                    <div class="preview__img">
+                      <picture>
+                        <source type="image/webp" srcset="img/main-barr.webp">
+                        <img src="img/main-barr.png" alt="Barriles" width="340">
+                      </picture>
+                    </div>
+                    <h3 class="preview__link link-circle">Barriles</h3>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="preview__bottom">
+              <div class="preview__logo">
+                <img src="img/logo-white.svg" alt="Logo" width="151">
+              </div>
+              <address class="preview__address">
+                <a href="mailto:contact@1959canarias.com" class="preview__email">contact@1959canarias.com</a>
+                <a href="tel:+11234567890" class="preview__tel">+1 123 456 78 90</a>
+              </address>
+            </div>
+          </div>
+          <div class="preview__slide preview__item--temp">
+            <a href="bottles.html" class="preview__body">
+              <div class="preview__img">
+                <picture>
+                  <source type="image/webp" srcset="img/bg-preview.webp">
+                  <img src="img/bg-preview.png" alt="Botellas" width="340">
+                </picture>
+              </div>
+              <h3 class="preview__link link-circle">Botellas</h3>
+            </a>
+          </div>
+          <div class="preview__slide preview__item--temp-2">
+            <a href="barrel.html" class="preview__body">
+              <div class="preview__img">
+                <picture>
+                  <source type="image/webp" srcset="img/main-barr.webp">
+                  <img src="img/main-barr.png" alt="Barriles" width="340">
+                </picture>
+              </div>
+              <h3 class="preview__link link-circle">Barriles</h3>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="js/app.min.js"></script>
+</body>
+
+</html>

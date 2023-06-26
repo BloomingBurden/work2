@@ -1,0 +1,7 @@
+.logo {
+  flex: 0 0 105px;
+
+  @media (max-width: $tableW) {
+    flex: 0 0 100px;
+  }
+}

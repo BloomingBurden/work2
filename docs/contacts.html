@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="images/favicon.png">
+  <meta property="og:image" content="images/dist/preview.jpg">
+  <title>Contactos</title>
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body class=contacts-body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__container">
+        <button type="button" class="header__burger">open menu</button>
+        <div class="header__logo logo">
+          <img src="img/logo-red.svg" alt="logo" width="105">
+        </div>
+        <nav class="header__nav nav">
+          <button type="button" class="nav__close">close menu</button>
+          <ul class="nav__list">
+            <li class="nav__item nav__item--current">
+              <a href="index.html" class="nav__link">Inicio</a>
+            </li>
+            <li class="nav__item nav__item--hidden">
+              <a href="bottles.html" class="nav__link">Botellas</a>
+            </li>
+            <li class="nav__item nav__item--hidden">
+              <a href="barrel.html" class="nav__link">Barriles</a>
+            </li>
+            <li class="nav__item">
+              <a href="contacts.html" class="nav__link">Contactos</a>
+            </li>
+            <li class="nav__item">
+              <a href="about.html" class="nav__link">Quiénes somos</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="header__lang lang" tabindex="0">
+          <div class="lang__current"><img src="img/flag/es-flag.png" alt="Current flag"></div>
+          <ul class="lang__list">
+            <li class="lang__item lang__item--eu">
+              <a href="#" class="lang__link">English</a>
+            </li>
+            <li class="lang__item lang__item--es lang__item--current">
+              <a href="#" class="lang__link">Español</a>
+            </li>
+          </ul>
+        </div>
+
+        <a href="#" class="header__write">Escríbanos</a>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="contacts">
+        <div class="contacts__container">
+          <div class="contacts__header">
+            <h1 class="contacts__title">Contactos</h1>
+            <div class="contacts__address">
+              <a href="mailto:contact@1959canarias.com" class="contacts__mail">contact@1959canarias.com</a>
+              <a href="tel:+11234567890" class="contacts__tel">+1 123 456 78 90</a>
+            </div>
+          </div>
+          <div class="contacts__body">
+            <form action="#" method="POST" class="contacts__form">
+              <p class="contacts__item contacts__name">
+                <label for="contacts-name" class="visually-hidden"></label>
+                <input type="text" name="Nombre" id="contacts-name" placeholder="Nombre" value="" required>
+              </p>
+              <p class="contacts__item contacts__email">
+                <label for="contacts-email" class="visually-hidden"></label>
+                <input type="email" name="email" id="contacts-email" placeholder="Email" value="" required>
+              </p>
+              <p class="contacts__item contacts__subject">
+                <label for="contacts-subject" class="visually-hidden"></label>
+                <input type="text" name="subject" id="contacts-subject" placeholder="Asunto del mensaje" value="">
+              </p>
+              <p class="contacts__item contacts__text">
+                <textarea name="contacts-text" placeholder="Texto del mensaje" cols="30" rows="10" required></textarea>
+              </p>
+              <button type="submit" class="contacts__send">Enviar mensaje</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__logo">
+          <img src="img/logo-white.svg" alt="logo" width="234">
+        </div>
+        <ul class="footer__nav">
+          <li class="footer__li">
+            <a href="index.html" class="footer__link">Inicio</a>
+          </li>
+          <li class="footer__li">
+            <a href="contacts.html" class="footer__link">Contactos</a>
+          </li>
+          <li class="footer__li">
+            <a href="about.html" class="footer__link">Quiénes somos</a>
+          </li>
+        </ul>
+        <div class="footer__address">
+          <a href="mailto:contact@1959canarias.com" class="footer__mail">contact@1959canarias.com</a>
+          <a href="tel:+11234567890" class="footer__tel">+1 123 456 78 90</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="js/app.min.js"></script>
+</body>
+
+</html>

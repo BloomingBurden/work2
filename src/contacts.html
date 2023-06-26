@@ -1,0 +1,40 @@
+@@include('html/header.html', {
+  "title": "Contactos",
+  "bodyClass": "contacts-body"
+})
+
+<main class="main">
+  <section class="contacts">
+    <div class="contacts__container">
+      <div class="contacts__header">
+        <h1 class="contacts__title">Contactos</h1>
+        <div class="contacts__address">
+          <a href="mailto:contact@1959canarias.com" class="contacts__mail">contact@1959canarias.com</a>
+          <a href="tel:+11234567890" class="contacts__tel">+1 123 456 78 90</a>
+        </div>
+      </div>
+      <div class="contacts__body">
+        <form action="#" method="POST" class="contacts__form">
+          <p class="contacts__item contacts__name">
+            <label for="contacts-name" class="visually-hidden"></label>
+            <input type="text" name="Nombre" id="contacts-name" placeholder="Nombre" value="" required>
+          </p>
+          <p class="contacts__item contacts__email">
+            <label for="contacts-email" class="visually-hidden"></label>
+            <input type="email" name="email" id="contacts-email" placeholder="Email" value="" required>
+          </p>
+          <p class="contacts__item contacts__subject">
+            <label for="contacts-subject" class="visually-hidden"></label>
+            <input type="text" name="subject" id="contacts-subject" placeholder="Asunto del mensaje" value="">
+          </p>
+          <p class="contacts__item contacts__text">
+            <textarea name="contacts-text" placeholder="Texto del mensaje" cols="30" rows="10" required></textarea>
+          </p>
+          <button type="submit" class="contacts__send">Enviar mensaje</button>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+@@include('html/footer.html', {})

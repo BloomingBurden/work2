@@ -1,0 +1,365 @@
+@@include('html/header.html', {
+  "title": "Botellas",
+  "bodyClass": "bottles-body"
+})
+
+<main class="main">
+    <section class="bottle">
+      <div class="bottle__container">
+        <h1 class="bottle__title title">Botellas</h1>
+        <div class="bottle__body">
+          <p class="bottle__subtitle">Le presentamos nuestra selección de botellas de cristal premium, meticulosamente elaboradas para conservar algunos de los mejores vinos del mercado. </p>
+          <p class="bottle__text">Sus formas únicas, que incluyen las Islas Canarias y el emblemático volcán Teide, están diseñadas para proporcionar una experiencia inolvidable que eleva cualquier selección de vino.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="bottles">
+      <div class="bottles__container">
+        <h2 class="visually-hidden">Botellas gallery</h2>
+
+        <div class="bottles__item">
+          <div class="bottles__header">
+            <div class="bottles__top">
+              <h3 class="bottles__title">Tenerife</h3>
+              <span class="bottles__span">Bottle shape</span>
+            </div>
+            <div class="bottles__img">
+              <picture>
+                <source type="image/webp" srcset="@img/bottle/tenerife/white.webp">
+                <img src="@img/bottle/tenerife/white.png" alt="tenerife" width="580">
+              </picture>
+            </div>
+            <div class="bottles__bottom">
+              <div class="bottles__color">
+                <span>Color</span>
+                <button type="button" class="bottles__btn-color bottles__btn-color--current bottles__btn--white" data-wine-src="@img/bottle/tenerife/white"></button>
+                <button type="button" class="bottles__btn-color bottles__btn--black" data-wine-src="@img/bottle/tenerife/black"></button>
+              </div>
+
+              <div class="bottles__wines" tabindex="0">
+                <button type="button" class="bottles__btn-wine">White wine</button>
+                <ul class="bottles__list">
+                  <li class="bottles__elem">
+                    <button type="button" class="bottles__wine" data-wine-src="@img/bottle/tenerife/afrutado">Afrutado</button>
+                  </li>
+                  <li class="bottles__elem">
+                    <button type="button" class="bottles__wine" data-wine-src="@img/bottle/tenerife/pink">Pink</button>
+                  </li>
+                  <li class="bottles__elem">
+                    <button type="button" class="bottles__wine" data-wine-src="@img/bottle/tenerife/red">Red</button>
+                  </li>
+                  <li class="bottles__elem bottles__elem--current">
+                    <button type="button" class="bottles__wine" data-wine-src="@img/bottle/tenerife/white">White</button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <div class="bottles__body">
+            <p class="bottles__body-text">En nuestra empresa, <strong> entendemos la importancia de la calidad cuando se trata de vino.</strong> Por eso seleccionamos sólo las mejores variedades para llenar nuestras botellas. Nuestro vino es de la más alta calidad, proporcionando un sabor rico e inolvidable que sin duda encantará a sus clientes.</p>
+          </div>
+        </div>
+        
+        <div class="bottles__item bottles__item--right">
+          <div class="bottles__header">
+            <div class="bottles__top">
+              <h3 class="bottles__title">Gran Canaria</h3>
+              <span class="bottles__span">Bottle shape</span>
+            </div>
+            <div class="bottles__img">
+              <picture>
+                <source type="image/webp" srcset="@img/bottle/gran_canaria/black.webp">
+                <img src="@img/bottle/gran_canaria/black.png" alt="gran_canaria" width="580">
+              </picture>
+            </div>
+            <div class="bottles__bottom">
+              <div class="bottles__color">
+                <span>Color</span>
+                <button type="button" class="bottles__btn-color bottles__btn-color--current bottles__btn--white" data-wine-src="@img/bottle/gran_canaria/white"></button>
+                <button type="button" class="bottles__btn-color bottles__btn--black" data-wine-src="@img/bottle/gran_canaria/black"></button>
+              </div>
+
+              <div class="bottles__wines" tabindex="0">
+                <button type="button" class="bottles__btn-wine">White wine</button>
+                <ul class="bottles__list">
+                  <li class="bottles__elem">
+                    <button type="button" class="bottles__wine" data-wine-src="@img/bottle/gran_canaria/afrutado">Afrutado</button>
+                  </li>
+                  <li class="bottles__elem">
+                    <button type="button" class="bottles__wine" data-wine-src="@img/bottle/gran_canaria/pink">Pink</button>
+                  </li>
+                  <li class="bottles__elem">
+                    <button type="button" class="bottles__wine" data-wine-src="@img/bottle/gran_canaria/red">Red</button>
+                  </li>
+                  <li class="bottles__elem bottles__elem--current">
+                    <button type="button" class="bottles__wine" data-wine-src="@img/bottle/gran_canaria/white">White</button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <div class="bottles__body">
+            <p class="bottles__body-text">Nuestras botellas están fabricadas con <strong>materiales de la más alta calidad,</strong> lo que garantiza que el vino se almacene de forma segura. </p>
+          </div>
+        </div>
+
+        <div class="bottles__item">
+          <div class="bottles__header">
+            <div class="bottles__top">
+              <h3 class="bottles__title">Fuerteventura</h3>
+              <span class="bottles__span">Bottle shape</span>
+            </div>
+            <div class="bottles__img">
+              <picture>
+                <source type="image/webp" srcset="@img/bottle/fuerteventura/afrutado.webp">
+                <img src="@img/bottle/fuerteventura/afrutado.png" alt="fuerteventura" width="580">
+              </picture>
+            </div>
+            <div class="bottles__bottom">
+              <div class="bottles__color">
+                <span>Color</span>
+                <button type="button" class="bottles__btn-color bottles__btn-color--current bottles__btn--white" data-wine-src="@img/bottle/fuerteventura/white"></button>
+                <button type="button" class="bottles__btn-color bottles__btn--black" data-wine-src="@img/bottle/fuerteventura/black"></button>
+              </div>
+
+              <div class="bottles__wines" tabindex="0">
+                <button type="button" class="bottles__btn-wine">White wine</button>
+                <ul class="bottles__list">
+                  <li class="bottles__elem">
+                    <button type="button" class="bottles__wine" data-wine-src="@img/bottle/fuerteventura/afrutado">Afrutado</button>
+                  </li>
+                  <li class="bottles__elem">
+                    <button type="button" class="bottles__wine" data-wine-src="@img/bottle/fuerteventura/pink">Pink</button>
+                  </li>
+                  <li class="bottles__elem">
+                    <button type="button" class="bottles__wine" data-wine-src="@img/bottle/fuerteventura/red">Red</button>
+                  </li>
+                  <li class="bottles__elem bottles__elem--current">
+                    <button type="button" class="bottles__wine" data-wine-src="@img/bottle/fuerteventura/white">White</button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <div class="bottles__body">
+            <p class="bottles__body-text"> Los diseños estilizados y elegantes son perfectos para las empresas que desean impresionar a sus clientes con una <strong>experiencia vinícola de primera calidad.</strong> Nuestras botellas son la elección ideal para las empresas que se comprometen a ofrecer sólo lo mejor a sus clientes. </p>
+          </div>
+        </div>
+
+        <div class="bottles__item bottles__item--right">
+          <div class="bottles__header">
+            <div class="bottles__top">
+              <h3 class="bottles__title">Teide</h3>
+              <span class="bottles__span">Bottle shape</span>
+            </div>
+            <div class="bottles__img">
+              <picture>
+                <source type="image/webp" srcset="@img/bottle/teide/pink.webp">
+                <img src="@img/bottle/teide/white.png" alt="teide" width="580">
+              </picture>
+            </div>
+            <div class="bottles__bottom">
+              <div class="bottles__color">
+                <span>Color</span>
+                <button type="button" class="bottles__btn-color bottles__btn-color--current bottles__btn--white" data-wine-src="@img/bottle/teide/white"></button>
+                <button type="button" class="bottles__btn-color bottles__btn--black" data-wine-src="@img/bottle/teide/black"></button>
+              </div>
+
+              <div class="bottles__wines" tabindex="0">
+                <button type="button" class="bottles__btn-wine">Pink wine</button>
+                <ul class="bottles__list">
+                  <li class="bottles__elem">
+                    <button type="button" class="bottles__wine" data-wine-src="@img/bottle/teide/afrutado">Afrutado</button>
+                  </li>
+                  <li class="bottles__elem">
+                    <button type="button" class="bottles__wine" data-wine-src="@img/bottle/teide/pink">Pink</button>
+                  </li>
+                  <li class="bottles__elem">
+                    <button type="button" class="bottles__wine" data-wine-src="@img/bottle/teide/red">Red</button>
+                  </li>
+                  <li class="bottles__elem bottles__elem--current">
+                    <button type="button" class="bottles__wine" data-wine-src="@img/bottle/teide/white">White</button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <div class="bottles__body">
+            <p class="bottles__body-text">Nuestras exclusivas botellas no solo enriquecen cualquier selección de vinos, <strong>sino que también  son estupendos regalos y souvenirs.</strong> Todo el mundo está cansado de los mismos imanes de cerámica y otros souvenirs típicos. </p>
+          </div>
+        </div>
+
+        <p class="bottles__additional">Nuestras exclusivas botellas son la forma perfecta de recordar un viaje u ocasión especial. Son un regalo atento y práctico que sus clientes apreciarán durante años.</p>
+        
+        <div class="bottles__foot">
+          <div class="bottles__header">
+            <div class="bottles__top">
+              <h3 class="bottles__title">Lanzarote</h3>
+              <span class="bottles__span">Bottle shape</span>
+            </div>
+            <div class="bottles__img">
+              <picture>
+                <source type="image/webp" srcset="@img/bottle/lanzarote/red.webp">
+                <img src="@img/bottle/lanzarote/white.png" alt="lanzarote" width="580">
+              </picture>
+            </div>
+            <div class="bottles__bottom">
+              <div class="bottles__color">
+                <span>Color</span>
+                <button type="button" class="bottles__btn-color bottles__btn-color--current bottles__btn--white" data-wine-src="@img/bottle/lanzarote/white"></button>
+                <button type="button" class="bottles__btn-color bottles__btn--black" data-wine-src="@img/bottle/lanzarote/black"></button>
+              </div>
+
+              <div class="bottles__wines" tabindex="0">
+                <button type="button" class="bottles__btn-wine">Red wine</button>
+                <ul class="bottles__list">
+                  <li class="bottles__elem">
+                    <button type="button" class="bottles__wine" data-wine-src="@img/bottle/lanzarote/afrutado">Afrutado</button>
+                  </li>
+                  <li class="bottles__elem">
+                    <button type="button" class="bottles__wine" data-wine-src="@img/bottle/lanzarote/pink">Pink</button>
+                  </li>
+                  <li class="bottles__elem">
+                    <button type="button" class="bottles__wine" data-wine-src="@img/bottle/lanzarote/red">Red</button>
+                  </li>
+                  <li class="bottles__elem bottles__elem--current">
+                    <button type="button" class="bottles__wine" data-wine-src="@img/bottle/lanzarote/white">White</button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="bottles__header">
+            <div class="bottles__top">
+              <h3 class="bottles__title">El Hierro</h3>
+              <span class="bottles__span">Bottle shape</span>
+            </div>
+            <div class="bottles__img">
+              <picture>
+                <source type="image/webp" srcset="@img/bottle/el_hierro/red.webp">
+                <img src="@img/bottle/el_hierro/white.png" alt="el_hierro" width="580">
+              </picture>
+            </div>
+            <div class="bottles__bottom">
+              <div class="bottles__color">
+                <span>Color</span>
+                <button type="button" class="bottles__btn-color bottles__btn-color--current bottles__btn--white" data-wine-src="@img/bottle/el_hierro/white"></button>
+                <button type="button" class="bottles__btn-color bottles__btn--black" data-wine-src="@img/bottle/el_hierro/black"></button>
+              </div>
+
+              <div class="bottles__wines" tabindex="0">
+                <button type="button" class="bottles__btn-wine">Red wine</button>
+                <ul class="bottles__list">
+                  <li class="bottles__elem">
+                    <button type="button" class="bottles__wine" data-wine-src="@img/bottle/el_hierro/afrutado">Afrutado</button>
+                  </li>
+                  <li class="bottles__elem">
+                    <button type="button" class="bottles__wine" data-wine-src="@img/bottle/el_hierro/pink">Pink</button>
+                  </li>
+                  <li class="bottles__elem">
+                    <button type="button" class="bottles__wine" data-wine-src="@img/bottle/el_hierro/red">Red</button>
+                  </li>
+                  <li class="bottles__elem bottles__elem--current">
+                    <button type="button" class="bottles__wine" data-wine-src="@img/bottle/el_hierro/white">White</button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="bottles__header">
+            <div class="bottles__top">
+              <h3 class="bottles__title">La Palma</h3>
+              <span class="bottles__span">Bottle shape</span>
+            </div>
+            <div class="bottles__img">
+              <picture>
+                <source type="image/webp" srcset="@img/bottle/la_palma/red.webp">
+                <img src="@img/bottle/la_palma/white.png" alt="la_palma" width="580">
+              </picture>
+            </div>
+            <div class="bottles__bottom">
+              <div class="bottles__color">
+                <span>Color</span>
+                <button type="button" class="bottles__btn-color bottles__btn-color--current bottles__btn--white" data-wine-src="@img/bottle/la_palma/white"></button>
+                <button type="button" class="bottles__btn-color bottles__btn--black" data-wine-src="@img/bottle/la_palma/black"></button>
+              </div>
+
+              <div class="bottles__wines" tabindex="0">
+                <button type="button" class="bottles__btn-wine">Red wine</button>
+                <ul class="bottles__list">
+                  <li class="bottles__elem">
+                    <button type="button" class="bottles__wine" data-wine-src="@img/bottle/la_palma/afrutado">Afrutado</button>
+                  </li>
+                  <li class="bottles__elem">
+                    <button type="button" class="bottles__wine" data-wine-src="@img/bottle/la_palma/pink">Pink</button>
+                  </li>
+                  <li class="bottles__elem">
+                    <button type="button" class="bottles__wine" data-wine-src="@img/bottle/la_palma/red">Red</button>
+                  </li>
+                  <li class="bottles__elem bottles__elem--current">
+                    <button type="button" class="bottles__wine" data-wine-src="@img/bottle/la_palma/white">White</button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="bottles__header">
+            <div class="bottles__top">
+              <h3 class="bottles__title">La Gomera</h3>
+              <span class="bottles__span">Bottle shape</span>
+            </div>
+            <div class="bottles__img">
+              <picture>
+                <source type="image/webp" srcset="@img/bottle/la_gomera/red.webp">
+                <img src="@img/bottle/la_gomera/la_gomera.png" alt="la_gomera" width="580">
+              </picture>
+            </div>
+            <div class="bottles__bottom">
+              <div class="bottles__color">
+                <span>Color</span>
+                <button type="button" class="bottles__btn-color bottles__btn-color--current bottles__btn--white" data-wine-src="@img/bottle/la_gomera/white"></button>
+                <button type="button" class="bottles__btn-color bottles__btn--black" data-wine-src="@img/bottle/la_gomera/black"></button>
+              </div>
+
+              <div class="bottles__wines" tabindex="0">
+                <button type="button" class="bottles__btn-wine">Red wine</button>
+                <ul class="bottles__list">
+                  <li class="bottles__elem">
+                    <button type="button" class="bottles__wine" data-wine-src="@img/bottle/la_gomera/afrutado">Afrutado</button>
+                  </li>
+                  <li class="bottles__elem">
+                    <button type="button" class="bottles__wine" data-wine-src="@img/bottle/la_gomera/pink">Pink</button>
+                  </li>
+                  <li class="bottles__elem">
+                    <button type="button" class="bottles__wine" data-wine-src="@img/bottle/la_gomera/red">Red</button>
+                  </li>
+                  <li class="bottles__elem bottles__elem--current">
+                    <button type="button" class="bottles__wine" data-wine-src="@img/bottle/la_gomera/white">White</button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="additional">
+      <div class="additional__container">
+        <div class="additional__header">
+          <h2 class="additional__title">Si está interesado en ofrecer a sus clientes una experiencia vinícola inolvidable o una opción de recuerdo única, <strong>le invitamos a ponerse en contacto con nosotros.</strong></h2>
+          <a href="#" class="additional__link link-circle">Contacta con nosotros</a>
+        </div>
+        <p class="additional__text">
+          Nuestras botellas de vidrio premium están disponibles en grandes cantidades y nos dedicamos a ofrecer a nuestros clientes un servicio y una calidad excepcionales.Elija nuestras botellas premium y permítanos ayudarle a elevar su selección de vinos y sus opciones de souvenirs a un nuevo nivel.
+        </p>
+      </div>
+    </section>
+</main>
+
+@@include('html/footer.html', {})

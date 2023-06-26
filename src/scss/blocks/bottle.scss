@@ -1,0 +1,111 @@
+.bottle {
+  padding: 40px 0 118px;
+
+  @media (max-width: $desktopW) {
+    padding: 18px 0 40px;
+  }
+
+  @media (max-width: $tableW) {
+    padding: 8px 0 40px;
+  }
+}
+
+
+.bottle__container {
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: $tableW) {
+    display: block;
+  }
+}
+
+.bottle__title {
+  margin-right: 30px;
+  position: relative;
+  max-width: 700px;
+  align-self: flex-start;
+  flex: 0 0 auto;
+
+  @media (max-width: $desktopW) {
+    max-width: 380px;
+  }
+
+  @media (max-width: $tableW) {
+    margin: 0;
+    margin-bottom: 145px;
+    max-width: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+    width: 58px;
+    height: 212px;
+
+    background-image: url('@img/svg/arrow-down.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    @media (max-width: $desktopW) {
+      width: 40px;
+      height: 170px;
+    }
+
+    @media (max-width: $tableW) {
+      width: 25px;
+      height: 130px;
+    }
+  }
+}
+
+.bottle__body {
+  padding-top: 75px;
+  max-width: 580px;
+  flex: 1 1 100%;
+
+  @media (max-width: 1000px) {
+    padding-top: 45px;
+    max-width: 395px;
+  }
+
+  @media (max-width: $tableW) {
+    padding-left: 15px;
+    margin: 0 auto;
+  }
+}
+
+.bottle__subtitle {
+  font-size: 48px;
+  font-family: $secondFont;
+  margin-bottom: 40px;
+  line-height: 1.1;
+
+  @media (max-width: 1000px) {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+
+  @media (max-width: $tableW) {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+}
+
+.bottle__text {
+  color: $grey-medium;
+
+  @media (max-width: $desktopW) {
+    font-size: 18px;
+  }
+
+  @media (max-width: $tableW) {
+    font-size: 16px;
+  }
+}

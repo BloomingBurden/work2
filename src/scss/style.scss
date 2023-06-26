@@ -1,0 +1,31 @@
+// NORMALIZE
+@import '~normalize.css/normalize';
+
+// VARIABLE
+@import 'base/variable';
+
+//MIXINS
+@import 'config/mixins';
+
+//FONTS 
+@import 'base/fonts';
+
+//GENERAL
+@import 'base/general';
+
+@import 'blocks/header';
+@import 'blocks/logo';
+@import 'blocks/nav';
+@import 'blocks/lang';
+@import 'blocks/preview';
+
+@import 'blocks/bottle';
+@import 'blocks/bottles';
+@import 'blocks/additional';
+
+
+@import 'blocks/barrel';
+@import 'blocks/about';
+@import 'blocks/contacts';
+
+@import 'blocks/footer';
