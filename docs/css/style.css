@@ -911,7 +911,7 @@ button {
   background-image: url("../img/flag/eu-flag.png"); }
 
 .no-webp .lang__item--es .lang__link::after {
-  background-image: url("../img/flag/es-flag.png"); }
+  background-image: url("../img/flag/spain-flag.png"); }
 
 .lang__item--current .lang__link {
   background-image: url("../img/icons/icons.svg#lang-check-icon");
@@ -3138,6 +3138,6 @@ button {
 
 .webp .lang__item--eu .lang__link::after { background-image: url(../img/flag/eu-flag.webp); }
 
-.webp .lang__item--es .lang__link::after { background-image: url(../img/flag/es-flag.webp); }
+.webp .lang__item--es .lang__link::after { background-image: url(../img/flag/spain-flag.webp); }
 
 .webp .contacts { background-image: url(../img/contacts-bg.webp); }
