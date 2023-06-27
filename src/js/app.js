@@ -1,4 +1,6 @@
 import './modules/functions.js';
+import './modules/movingEffects.js';
+import './modules/smoothScroll.js';
 
 window.addEventListener('load', () => {
 

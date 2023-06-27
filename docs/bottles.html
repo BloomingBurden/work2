@@ -25,10 +25,10 @@
         <nav class="header__nav nav">
           <button type="button" class="nav__close">close menu</button>
           <ul class="nav__list">
-            <li class="nav__item">
+            <li class="nav__item nav__item--current">
               <a href="index.html" class="nav__link">Inicio</a>
             </li>
-            <li class="nav__item nav__item--hidden nav__item--current">
+            <li class="nav__item nav__item--hidden">
               <a href="bottles.html" class="nav__link">Botellas</a>
             </li>
             <li class="nav__item nav__item--hidden">
@@ -70,7 +70,7 @@
         </div>
       </section>
 
-      <section class="bottles">
+      <section class="bottles" data-move-effects="move-top, move-bottom, true">
         <div class="bottles__container">
           <h2 class="visually-hidden">Botellas gallery</h2>
 
