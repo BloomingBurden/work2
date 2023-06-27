@@ -1,5 +1,5 @@
-class Scrooth {
-    constructor({element = window, strength=15, acceleration = 1.2,deceleration = 0.975}={}) {
+export class Scrooth {
+    constructor({element = window, strength=18, acceleration = 1.2,deceleration = 0.945}={}) {
       this.element = element;
       this.distance = strength;
       this.acceleration = acceleration;
@@ -36,6 +36,7 @@ class Scrooth {
         Math.abs(this.currentDistance) >= Math.abs(this.distance) ? this.isDistanceAsc = false : 1;
         
         if (this.top + window.innerHeight > this.maxScroll) {
+            console.log(this.top + window.innerHeight, this.maxScroll);
             this.top = this.maxScroll - window.innerHeight;
         } else if (this.top < 0) {
             this.top = 0;
@@ -50,5 +51,5 @@ class Scrooth {
     }
   }
   
-  const body = new Scrooth();
+
   

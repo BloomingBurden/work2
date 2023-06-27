@@ -1,6 +1,6 @@
 import './modules/functions.js';
 import './modules/movingEffects.js';
-import './modules/smoothScroll.js';
+import { Scrooth } from './modules/smoothScroll.js';
 
 window.addEventListener('load', () => {
 
@@ -22,6 +22,8 @@ window.addEventListener('load', () => {
             },
         });
     }
+
+    const smoothScrolling = new Scrooth();
 });
 
 
