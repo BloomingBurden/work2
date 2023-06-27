@@ -474,7 +474,6 @@ html,
 body {
   height: 100%;
   min-width: 360px;
-  scroll-behavior: smooth;
 }
 
 body {
